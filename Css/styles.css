@@ -1,0 +1,35 @@
+body {
+  background-image: url(../Images/fondo_montanias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.main .contenedor {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
+}
+
+.parte_1 {
+  background-color: rgba(45, 58, 78, 0.9) !important;
+}
+
+.parte_2 {
+  background-color: rgba(45, 58, 78, 0.5) !important;
+}
+
+.letrota {
+  font-size: 10rem;
+}
+
+a {
+  size: 100rem;
+}
+/*# sourceMappingURL=styles.css.map */

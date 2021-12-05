@@ -1,0 +1,32 @@
+body {
+   background-image: url(../Images/fondo_montanias.jpg);
+   // background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   // background: rgb(4, 109, 128);
+   // background: linear-gradient(to right, rgba(247, 204, 111, 0.055), rgba(163, 153, 10, 0.055));
+}
+
+.main {
+   display: flex;
+   height: 100vh;
+
+   .contenedor{
+      align-self: center !important;
+   }
+}
+
+.parte_1 {
+   background-color: rgba(45, 58, 78, 0.9) !important;
+}
+.parte_2 {
+   background-color: rgba(45, 58, 78, 0.5) !important;
+}
+
+.letrota {
+   font-size: 10rem;
+}
+
+a {
+   size:100rem;
+}
